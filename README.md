@@ -92,35 +92,33 @@ The complete Power BI files are available in the `powerbi` folder.
 
 ## Repository Structure
 
+## Project Structure
+
+```text
 NSE-Equity-Risk-Return-Analytics/
-|
-|-- README.md
-|
-|-- python/
-|   |-- fetch_nse_data.py
-|   |-- python_dependencies.txt
-|
-|-- sql/
-|   |-- 00_create_table.sql
-|   |-- 01_data_validation.sql
-|   |-- 02_top_performers.sql
-|   |-- 03_worst_performers.sql
-|   |-- 04_volatility_analysis.sql
-|   |-- 05_monthly_performance.sql
-|   |-- 06_compounded_monthly_returns.sql
-|
-|-- powerbi/
-|   |-- Nse_Stock_Market_Analytics_Dashboard.pdf
-|   |-- Nse_Stock_Market_Analytics_Dashboard.pbix
-|
-|-- Screenshots/
-|   |-- Screenshot_1.png
-|   |-- Screenshot_2.png
-|   |-- Screenshot_3.png
-|   |-- Screenshot_4.png
-|
-|-- archive_v1/
-    |-- Previous version files
+├── README.md
+├── python/
+│   ├── fetch_nse_data.py
+│   └── python_dependencies.txt
+├── sql/
+│   ├── 00_create_table.sql
+│   ├── 01_data_validation.sql
+│   ├── 02_top_performers.sql
+│   ├── 03_worst_performers.sql
+│   ├── 04_volatility_analysis.sql
+│   ├── 05_monthly_performance.sql
+│   └── 06_compounded_monthly_returns.sql
+├── powerbi/
+│   ├── Nse_Stock_Market_Analytics_Dashboard.pdf
+│   └── Nse_Stock_Market_Analytics_Dashboard.pbix
+├── Screenshots/
+│   ├── Screenshot_1.png
+│   ├── Screenshot_2.png
+│   ├── Screenshot_3.png
+│   └── Screenshot_4.png
+└── archive_v1/
+    └── Previous version files
+```
     
 ## How to Reproduce the Project
 
