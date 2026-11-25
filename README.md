@@ -92,35 +92,36 @@ The complete Power BI files are available in the `powerbi` folder.
 
 ## Repository Structure
 
-```text
-V2-Advanced-Analytics/
-│
-├── README.md
-│
-├── python/
-│   ├── fetch_nse_data.py
-│   └── python_dependencies.txt
-│
-├── sql/
-│   ├── 00_create_table.sql
-│   ├── 01_data_validation.sql
-│   ├── 02_top_performers.sql
-│   ├── 03_worst_performers.sql
-│   ├── 04_volatility_analysis.sql
-│   ├── 05_monthly_performance.sql
-│   └── 06_compounded_monthly_returns.sql
-│
-├── powerbi/
-│   ├── Nse_Stock_Market_Analytics_Dashboard.pdf
-│   └── Nse_Stock_Market_Analytics_Dashboard.pbix
-│
-└── Screenshots/
-    ├── Screenshot_1.png
-    ├── Screenshot_2.png
-    ├── Screenshot_3.png
-    └── Screenshot_4.png
-```
-
+NSE-Equity-Risk-Return-Analytics/
+|
+|-- README.md
+|
+|-- python/
+|   |-- fetch_nse_data.py
+|   |-- python_dependencies.txt
+|
+|-- sql/
+|   |-- 00_create_table.sql
+|   |-- 01_data_validation.sql
+|   |-- 02_top_performers.sql
+|   |-- 03_worst_performers.sql
+|   |-- 04_volatility_analysis.sql
+|   |-- 05_monthly_performance.sql
+|   |-- 06_compounded_monthly_returns.sql
+|
+|-- powerbi/
+|   |-- Nse_Stock_Market_Analytics_Dashboard.pdf
+|   |-- Nse_Stock_Market_Analytics_Dashboard.pbix
+|
+|-- Screenshots/
+|   |-- Screenshot_1.png
+|   |-- Screenshot_2.png
+|   |-- Screenshot_3.png
+|   |-- Screenshot_4.png
+|
+|-- archive_v1/
+    |-- Previous version files
+    
 ## How to Reproduce the Project
 
 ### 1. Clone the Repository
@@ -172,6 +173,12 @@ The imported dataset was checked for:
 - Expected missing rolling volatility values during the initial rolling calculation period.
 
 The final imported dataset contains **37,080 observations across 30 companies**.
+
+## Previous Version
+
+The `archive_v1` folder contains the initial version of this project, featuring an earlier implementation and dashboard.
+
+This is the current and more comprehensive implementation , which expands the analysis to 30 NSE-listed companies and includes Python-based data processing, PostgreSQL integration, SQL analysis and a four-page Power BI dashboard.
 
 ## Limitations
 
